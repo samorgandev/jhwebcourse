@@ -1,2 +1,1 @@
-# jhwebcourse
-johns hopkins coursera
+# jhcourse

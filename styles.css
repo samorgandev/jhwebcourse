@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.row {
+    background: rgb(226, 223, 223);
+    border: solid 1px black;
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.title {
+    text-align: center;
+    border: solid 1px black;
+    width: 30%;
+    margin: 0;
+}
+
+.One {
+    background-color: pink;
+    position: relative;
+    left: 70%;
+}
+
+.Two {
+    background-color: rgb(115, 115, 238);
+    position: relative;
+    left: 70%;
+}
+
+.Three {
+    background-color: rgb(247, 109, 109);
+    position: relative;
+    left: 70%;
+}
+
+/* desktop view */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .col-lg-4 {
+        float: left;
+        width: 30%;
+    }
+} 
+
+/* tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 45%;
+    }
+    .col-md-12 {
+        width: 93%;
+    }
+}
+
+/* mobile view */
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 95%;
+    }
+}
+
