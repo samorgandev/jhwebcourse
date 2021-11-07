@@ -1,0 +1,88 @@
+body {
+    font-size: 16px;
+    color: white;
+    background: #34522b;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* style header*/
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+/* style the name */
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1 px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #557c3e;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-heaer .icon-bar {
+    border: 1px solid #557c3e;
+}
+
+.category-tile { 
+    position: relative;
+    background-color: #7b9b68;
+    overflow: hidden;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto 15px;
+  }
+
+  .category-tile span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: black;
+    opacity: .8;
+  }
+
+  .category-tile p {
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 35px;
+  }
+ 
+  #menu-categories-title + div {
+    margin-bottom: 50px;
+    background-color: blue;
+  }
+
+  #menu-categories-title {
+    padding-bottom: 20px;
+  }
